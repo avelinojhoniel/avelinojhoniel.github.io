@@ -1,0 +1,241 @@
+/* responsiveness */
+@media (max-width: 1440px) {
+  body {
+    height: auto;
+    width: auto;
+  }
+  header {
+    position: relative;
+    padding: 0 2rem;
+    height: auto;
+    width: 100%;
+  }
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    right: 7%;
+    padding: 2px;
+  }
+  .navbar .links {
+    display: flex;
+    gap: 3rem;
+    width: auto;
+  }
+  .banner .welcome h2 {
+    font-size: 60px;
+  }
+  nav li {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    height: auto;
+    width: auto;
+  }
+  header {
+    position: relative;
+    padding: 0 2rem;
+    height: auto;
+    width: 1292px;
+  }
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 5%;
+    padding: 2px;
+  }
+  .navbar .links {
+    display: flex;
+    gap: 3rem;
+    width: auto;
+  }
+  .banner {
+    position: relative;
+    width: 1292px;
+    height: auto;
+  }
+  .banner .welcome h2 {
+    font-size: 60px;
+  }
+  nav li {
+    font-size: 18px;
+  }
+  main {
+    position: relative;
+    left: 13%;
+    max-width: 100%;
+    width: 1292px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  footer {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .links {
+    font-size: 15px;
+  }
+  main {
+    position: relative;
+    left: 33%;
+    max-width: 100%;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  header {
+    position: relative;
+    padding: 0 2rem;
+    height: auto;
+    width: 768px;
+  }
+  .banner {
+    position: relative;
+    width: 768px;
+    height: auto;
+  }
+  .maggie {
+    transform: translateX(120%);
+    width: 30%;
+  }
+  .glitch {
+    font-size: 40px;
+  }
+  .banner .glitch-wrapper {
+    position: absolute;
+    left: 20%;
+    top: 5%;
+  }
+  .navbar .links {
+    display: none;
+  }
+  .navbar .toggle_btn {
+    display: block;
+  }
+  article .glitch2 {
+    font-size: 35px;
+    position: relative;
+    left: 38%;
+    top: 100%;
+  }
+  article p {
+    position: relative;
+    left: 1%;
+    text-align: justify;
+  }
+  .images {
+    position: relative;
+    top: 18%;
+  }
+  .glitch3 {
+    position: absolute;
+    right: 66%;
+    top: 150%;
+    font-size: 40px;
+  }
+  .contact {
+    position: relative;
+    display: flex;
+    top: 10px;
+    left: 21%;
+  }
+  .dropdown_menu {
+    display: block;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  header {
+    position: relative;
+    padding: 0 2rem;
+    height: auto;
+    width: 430px;
+  }
+  .banner {
+    position: relative;
+    width: 430px;
+    height: auto;
+  }
+  .main {
+    width: 1078px;
+  }
+  .maggie {
+    transform: translateX(120%);
+    width: 30%;
+  }
+  .banner .glitch-wrapper {
+    position: absolute;
+    left: 1%;
+    top: -25%;
+    transform: scale(0.5);
+  }
+  .navbar .links {
+    display: none;
+  }
+  .navbar .toggle_btn {
+    display: block;
+  }
+  article .glitch2 {
+    font-size: 35px;
+    position: relative;
+    left: 32%;
+  }
+  article p {
+    position: relative;
+    left: 1%;
+    text-align: justify;
+  }
+  .images {
+    position: relative;
+    top: 18%;
+  }
+  .images > img {
+    transform: rotate(var(--_a)) translateY(120%) rotateX(90deg);
+  }
+  .glitch3 {
+    position: absolute;
+    right: 50%;
+    top: -50%;
+    font-size: 70px;
+  }
+  .hero {
+    transform: scale(0.7);
+  }
+  .contact {
+    position: relative;
+    display: flex;
+    top: 10px;
+    left: 5%;
+  }
+  .dropdown_menu {
+    left: 2rem;
+    width: unset;
+  }
+}

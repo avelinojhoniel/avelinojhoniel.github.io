@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Slab:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="main-style.css" />
+    <link rel="stylesheet" href="glitch.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="main-header">
+      <nav id="main-navbar" class="my-container">
+        <a id="logo" href="#banner">FARLIGHT84</a>
+        <a class="nav-link" href="#banner">Home</a>
+        <a class="nav-link" href="#main">Feature</a>
+        <a class="nav-link" href="#hero">Heroes</a>
+        <div id="toggle_btn">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+      <nav id="mobile-navbar">
+        <a href="/home">Home</a>
+        <a href="/fature">Feature</a>
+        <a href="/heroes">Heroes</a>
+      </nav>
+    </header>
+    <section id="banner">
+      <figure>
+        <img
+          class="lucinda"
+          src="IMG/LUCINDA-removebg-preview.png"
+          alt="lucinda image"
+        />
+      </figure>
+      <div class="glitch-wrapper">
+        <h2 class="welcome">
+          Welcome to <br />
+          <span class="glitch" data-glitch="Farlight84">Farlight84</span>
+        </h2>
+      </div>
+      <figure>
+        <img
+          class="maggie"
+          src="IMG/Maggie-removebg-preview.png"
+          alt="Maggie Image"
+        />
+      </figure>
+    </section>
+    <section id="main">
+      <h2 class="glitch" data-glitch="FEATURE">FEATURE</h2>
+
+      <ul class="images">
+        <img src="IMG/feature-3.png" alt="Feature #1" />
+        <img src="IMG/feature-4.png" alt="Feature #2" />
+        <img src="IMG/feature-2.png" alt="Feature #3" />
+        <img src="IMG/feature-1.png" alt="Feature #4" />
+        <img src="IMG/feature3.png" alt="Feature #5" />
+        <img src="IMG/feature-2_700x458_via_10015_io.png" alt="Feature #6" />
+      </ul>
+      <p>
+        Farlight 84 is a fast-Paced Hero Battle Royale. <br />
+        Survivors invited to Isle City will enter a futuristic world in the year
+        2084 and experience Battle Royale matches with up to 60 players!
+      </p>
+    </section>
+    <section id="hero">
+      <h1 class="glitch" data-glitch="HEROES">HEROES</h1>
+      <div class="wrapper">
+        <div id="maggie">
+          <div class="content">
+            <h2>Maggie</h2>
+            <span>Pizza Delivery Girl</span>
+          </div>
+        </div>
+        <div>
+          <div class="content">
+            <h2>Yong</h2>
+            <span>The Lonely Man</span>
+          </div>
+        </div>
+        <div>
+          <div class="content">
+            <h2>Lucinda</h2>
+            <span>The Blackhole Witch</span>
+          </div>
+        </div>
+        <div>
+          <div class="content">
+            <h2>Phantom</h2>
+            <span>The Scout</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="join">
+            <h2>Visit us!</h2>
+            <p>Come! Have a Game Thrilling experience with Farlight84.</p>
+            <ul class="contact">
+                <li class="icon">
+                    <a href="https://www.instagram.com/farlight84_official/" style="---clr: #ff0050">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </li>
+                <li class="icon">
+                    <a href="https://web.facebook.com/Farlight84/?_rdc=1&_rdr" style="---clr: #4267b2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                </li>
+                <li class="icon">
+                    <a href="https://www.youtube.com/c/Farlight84" style="---clr: #cd201f">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fa fa-youtube"></span>
+                    </a>
+                </li>
+                <li class="icon">
+                    <a href="https://twitter.com/Farlight84" style="---clr: #1da1f2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+    <footer>
+        <h2 id="resource">Resources (Farlight84 Home Page)</h2>
+        <a href="https://farlight84.farlightgames.com/">Click Here</a>
+        <p class="copyright">©2023 Avelino, Jhoniel S. | All Rights Reserved.</p>
+    </footer>
+
+    <script>
+      const toggleBtn = document.getElementById("toggle_btn");
+      //   const toggleBtnIcon = document.querySelector(".toggle_btn div");
+      const dropDownmenu = document.getElementById("mobile-navbar");
+
+      toggleBtn.onclick = () => {
+        dropDownmenu.classList.toggle("open");
+        toggleBtn.classList.toggle("open");
+
+        // toggleBtnIcon.classList = isOpen ? "menu" : "menu-xmark";
+      };
+    </script>
+  </body>
+</html>
