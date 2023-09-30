@@ -42,6 +42,9 @@ body {
   position: relative;
   z-index: 100;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 /* Main Navbar */
 #main-navbar {
@@ -54,7 +57,7 @@ body {
   display: none;
   margin-right: 15px;
 }
-#main-navbar .nav-link:hover{
+.nav-link:hover{
   transform: scale(2);
   opacity: 1;
   filter: blur(0);
